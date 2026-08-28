@@ -1,0 +1,17 @@
+{
+  "name": "real-estate-platform",
+  "version": "0.1.0",
+  "description": "Real estate investment opportunities platform",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": ["real-estate", "investment", "opportunities"],
+  "author": "philiphans81-debug",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

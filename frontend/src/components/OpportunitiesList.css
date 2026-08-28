@@ -1,0 +1,22 @@
+.opportunities-list {
+  width: 100%;
+}
+
+.opportunities-list h2 {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
